@@ -1,4 +1,5 @@
 # NLogUtility
+[![AppVeyor](https://ci.appveyor.com/api/projects/status/h24237n59f7vjask?svg=true)](https://ci.appveyor.com/project/kinshines/nlogutility/branch/master)   
 ### 1.static void Info(string module, string message, params object[] args)
 the method will log info-level infomation to the file: 'D:\item\ApplicationName\\{module}_{shortdate}.log'
 ### 2.static void Trace(string module, string message, params object[] args)
