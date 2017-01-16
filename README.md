@@ -8,4 +8,4 @@ the method will log trace-level infomation to the file: 'D:\item\ApplicationName
 the method will log exception infomation with appended message to the file: 'D:\item\ApplicationName\\{shortdate}.log'
 ### 4.static void Error(Exception ex)
 the method will log exception infomation to the file: 'D:\item\ApplicationName\\{shortdate}.log'
-## Attention: the Trace method will take effect on addtion of Modify the value of minlevel with 'Trace' in NLog.config file
+## Attention: the Trace method will take effect When change 'minlevel' value to 'Trace' in NLog.config file
