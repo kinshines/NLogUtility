@@ -8,4 +8,12 @@ the method will log trace-level infomation to the file: 'D:\item\ApplicationName
 the method will log exception infomation with appended message to the file: 'D:\item\ApplicationName\\{shortdate}.log'
 ### 4.static void Error(Exception ex)
 the method will log exception infomation to the file: 'D:\item\ApplicationName\\{shortdate}.log'
-## Attention: the Trace method will take effect When change 'minlevel' value to 'Trace' in NLog.config file
+### 5.static void Alert(Exception ex, string message, params object[] args)
+the method will send email with exception infomation include appended message to the related person
+### 6.static void Alert(string message, params object[] args)
+the method will send email with message to the related person
+### 7.static void PureInfo(string module, string message, params object[] args)
+the method will log just message without time information to the file: 'D:\item\ApplicationName\\{module}.pure.log'
+## Attention: 
+## the Trace method will take effect When change 'minlevel' value to 'Trace' in NLog.config file
+## the Alert method will take effect When change 'to','from','smtpUserName','smtpPassword' to appropriate value in Mail Target
