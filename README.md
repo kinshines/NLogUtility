@@ -16,4 +16,4 @@ the method will send email with message to the related person
 the method will log just message without time information to the file: 'D:\item\ApplicationName\\{module}.pure.log'
 ## Attention: 
 ## the Trace method will take effect When change 'minlevel' value to 'Trace' in NLog.config file
-## the Trace method will take effect When change 'to','from','smtpUserName','smtpPassword' to appropriate value in Mail Target
+## the Alert method will take effect When change 'to','from','smtpUserName','smtpPassword' to appropriate value in Mail Target
