@@ -12,7 +12,7 @@ namespace NLogUtility
             NLog.Logger logger = NLog.LogManager.GetLogger(module);
             logger.Info(message, args);
         }
-        public static void Pure(string module, string message, params object[] args)
+        public static void PureInfo(string module, string message, params object[] args)
         {
             NLog.Logger logger = NLog.LogManager.GetLogger(module + ".pure");
             logger.Info(message, args);
