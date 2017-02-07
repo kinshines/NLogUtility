@@ -1,5 +1,5 @@
 # A Log Utility Using NLog
-[![AppVeyor](https://ci.appveyor.com/api/projects/status/h24237n59f7vjask?svg=true)](https://ci.appveyor.com/project/kinshines/nlogutility/branch/master)   [![NuGet package](https://badge.fury.io/nu/NLogUtility.svg)](https://www.nuget.org/packages/NLogUtility)
+[![Build status](https://ci.appveyor.com/api/projects/status/h24237n59f7vjask?svg=true)](https://ci.appveyor.com/project/kinshines/nlogutility)   [![NuGet package](https://badge.fury.io/nu/NLogUtility.svg)](https://www.nuget.org/packages/NLogUtility)
 ### 1.static void Info(string module, string message, params object[] args)
 the method will log info-level infomation to the file: 'D:\item\ApplicationName\\{module}_{shortdate}.log'
 ### 2.static void Trace(string module, string message, params object[] args)
