@@ -34,6 +34,11 @@ namespace NLogUtility
             NLog.Logger logger = NLog.LogManager.GetLogger("error");
             logger.Error(ex);
         }
+        public static void Error(string message, params object[] args)
+        {
+            NLog.Logger logger = NLog.LogManager.GetLogger("error");
+            logger.Error(message, args);
+        }
 
         public static void Alert(string message, params object[] args)
         {
