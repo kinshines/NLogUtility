@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>NLogUtility</id>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <title>NLog.Utility</title>
     <authors>kinshines</authors>
     <owners>kinshines</owners>
@@ -11,11 +11,11 @@
     <iconUrl>http://nlog-project.org/N.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>a utility for nlog</description>
-    <releaseNotes>first release.</releaseNotes>
+    <releaseNotes>add archive feature</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>NLog log email</tags>
     <dependencies>
-      <dependency id="NLog" version="4.4.1" />
+      <dependency id="NLog" version="4.4.12" />
     </dependencies>
   </metadata>
 </package>
