@@ -2,7 +2,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/h24237n59f7vjask?svg=true)](https://ci.appveyor.com/project/kinshines/nlogutility)   [![NuGet package](https://badge.fury.io/nu/NLogUtility.svg)](https://www.nuget.org/packages/NLogUtility)
 
 ## break change in v2.0
-Since the class name 'Logger' is conflict with the defination in NLog,we change the static class name to 'LogUtil'
+Since the class name 'Logger' is conflict with the definition in NLog, we change the static class name to 'LogUtil'
 
 ### 1.static void Info(string module, string message, params object[] args)
 the method will log info-level infomation to the file: '{basedir}\\logs\\{module}\\{module}.log'
